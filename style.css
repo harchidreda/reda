@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px;
+}
+
+#about {
+    background-color: #ecf0f1;
+}
+
+#about h2 {
+    color: #2c3e50;
+}
+
+#services {
+    background-color: #3498db;
+    color: #fff;
+}
+
+#services h2 {
+    color: #fff;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+.service-card h3 {
+    color: #2c3e50;
+}
+
+#services {
+    background-color: #3498db;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: #5bd5f3;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    flex: 1 1 300px; /* Adjust the width as needed */
+}
+
+.service-card h3 {
+    color: #2c3e50;
+}
+
+.service-card button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.service-card button:hover {
+    background-color: #2980b9;
+}
+#skills {
+    background-color: #ecf0f1;
+    padding: 50px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #3498db;
+    width: var(--progress);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#skills h2 {
+    color: #2c3e50;
+}
+#reviews {
+    background-color: #3498db;
+    color: #fff;
+    padding: 50px;
+}
+
+.review-card {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+.stars {
+    color: #f1c40f; /* couleur des étoiles jaunes */
+    font-size: 24px;
+}
+
+#reviews h2 {
+    color: #000000;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #3498db; /* Couleur primaire */
+    color: #000000;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #3498db; /* Couleur primaire */
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db; /* Couleur primaire */
+    color: #000000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; /* Couleur primaire - assombrie au survol */
+}
+label{
+    color: rgb(56, 126, 211);
+}
+#contact {
+    background-color: #ecf0f1;
+    padding: 50px;
+}
+
+#contact h2 {
+    color: #2c3e50;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    margin-bottom: 8px;
+}
+
+#contact input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #3498db; /* Couleur primaire */
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #3498db; /* Couleur primaire */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #2980b9; /* Couleur primaire - assombrie au survol */
+}
